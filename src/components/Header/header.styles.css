@@ -1,0 +1,16 @@
+#header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: black;
+    background-color: white;
+    height: 120px;
+    font-weight: 700;
+    font-family: "Courier New";
+    width: 100%;
+}
+
+
+@media {
+    #header
+}
