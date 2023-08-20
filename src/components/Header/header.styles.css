@@ -11,6 +11,10 @@
 }
 
 
-@media {
-    #header
+@media(max-width: 1013px) {
+    #header {
+        display: flex 1fr 1fr;
+
+        width: 100%;
+    }
 }
