@@ -1,5 +1,6 @@
 
 import Header from './components/Header/header.component.jsx'
+import Quote from './components/Quote/quote.component.jsx'
 
 
 import './App.css';
@@ -7,7 +8,10 @@ import './App.css';
 
 const App = () => {
   return (
-    <Header />
+    <>
+      <Header />
+      <Quote />
+    </> // fragment
   );
 }
 

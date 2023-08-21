@@ -1,0 +1,15 @@
+#quote {
+    padding-top: 60px;
+    padding-left: 50px;
+    max-width: 70%;
+    color: aliceblue;
+}
+
+#quote-text {
+    font-size: 3em;
+    font-weight: 700;
+}
+
+#author {
+    font-size: 1.8em;
+}
