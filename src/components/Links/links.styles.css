@@ -53,11 +53,11 @@
     padding: 0px;
     margin: 0px;
     background: linear-gradient(to bottom,
-            #282c34, #282c34 20%,
+            #FF5A33, #FF5A33 20%,
             #FAF9F6 20%, #FAF9F6 40%,
-            #282c34 40%, #282c34 60%,
+            #FF5A33 40%, #FF5A33 60%,
             #FAF9F6 60%, #FAF9F6 80%,
-            #282c34 80%, #282c34 100%);
+            #FF5A33 80%, #FF5A33 100%);
 }
 
 #hamburger-menu #sidebar-menu {
