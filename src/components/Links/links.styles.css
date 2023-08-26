@@ -46,11 +46,11 @@
     padding: 0px;
     margin: 0px;
     background: linear-gradient(to bottom,
-            black, black 20%,
+            #282c34, #282c34 20%,
             white 20%, white 40%,
-            black 40%, black 60%,
+            #282c34 40%, #282c34 60%,
             white 60%, white 80%,
-            black 80%, black 100%);
+            #282c34 80%, #282c34 100%);
 }
 
 #hamburger-menu #sidebar-menu {
@@ -104,7 +104,7 @@
 @media screen and (max-width: 1300px) {
     .link-hov {
         display: none;
-        z-index: -9;
+
     }
 
     #hamburger-menu {
