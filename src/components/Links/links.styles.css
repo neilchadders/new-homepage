@@ -4,17 +4,24 @@
     margin-right: 40px;
     font-size: 1.3em;
     z-index: 9;
+
 }
 
 .link-hov {
     color: #FF5A33;
     text-decoration: none;
     margin-right: auto;
-    padding-right: 15px;
+
 }
 
 .link-hov:hover {
     text-decoration: underline;
+}
+
+.pipe {
+    color: #FF5A33;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .overlay {
@@ -47,9 +54,9 @@
     margin: 0px;
     background: linear-gradient(to bottom,
             #282c34, #282c34 20%,
-            white 20%, white 40%,
+            #FAF9F6 20%, #FAF9F6 40%,
             #282c34 40%, #282c34 60%,
-            white 60%, white 80%,
+            #FAF9F6 60%, #FAF9F6 80%,
             #282c34 80%, #282c34 100%);
 }
 
@@ -105,6 +112,10 @@
     .link-hov {
         display: none;
 
+    }
+
+    .pipe {
+        display: none;
     }
 
     #hamburger-menu {
