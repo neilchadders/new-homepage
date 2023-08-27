@@ -1,6 +1,10 @@
 import "./links.styles.css"
+import { useState } from "react"
 
 const Links = () => {
+
+
+
     return (
         <div id="links">
             <a href='#about' className="link-hov">aboutMe</a>
@@ -24,7 +28,7 @@ const Links = () => {
                 </nav>
             </label>
 
-            <div class="overlay" onClick={() => document.querySelector("hamburger-menu").add.style("hidden")}></div>
+            <div class="overlay"></div>
         </div>
     )
 }
