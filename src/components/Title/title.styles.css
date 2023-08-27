@@ -11,9 +11,9 @@
 
 @media(max-width: 1013px) {
     #title {
-
         width: 30%;
         font-size: .7em;
+        display: inline;
 
     }
 }
