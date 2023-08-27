@@ -16,10 +16,10 @@ const Links = () => {
                 <nav id="sidebar-menu">
                     <h3>Menu</h3>
                     <ul>
-                        <li><a href="#">aboutMe</a></li>
-                        <li><a href="#">someProjects</a></li>
-                        <li><a href="#">myBlog</a></li>
-                        <li><a href="#">contactMe</a></li>
+                        <li><a>aboutMe</a></li>
+                        <li><a>someProjects</a></li>
+                        <li><a>myBlog</a></li>
+                        <li><a>contactMe</a></li>
                     </ul>
                 </nav>
             </label>

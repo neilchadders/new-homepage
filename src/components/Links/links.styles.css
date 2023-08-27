@@ -123,9 +123,15 @@
     }
 }
 
+@media screen and (max-width: 800px) {
+    #hamburger-menu {
+        height: 20px;
+        width: 20px;
+    }
+}
 
 /*
-@media(max-width: 1013px) {
+@media(max-width: 1013px) 
     #links {
         margin-top: 18px;
         margin-bottom: 0;
