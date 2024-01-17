@@ -1,0 +1,15 @@
+/*Object*/
+#object {
+    margin-top: 110px;
+    text-align: left;
+    font-size: 1.5em;
+}
+
+.var-highlight {
+    color: #C0AD60;
+}
+
+.string-highlight {
+    color: rgba(253, 149, 90, 0.8);
+}
+
