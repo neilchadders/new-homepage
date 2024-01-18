@@ -1,5 +1,5 @@
 import "./links.styles.css"
-import { useState } from "react"
+import { Link,  } from "react-router-dom"
 
 const Links = () => {
 
@@ -7,13 +7,19 @@ const Links = () => {
 
     return (
         <div id="links">
-            <a href='#about' className="link-hov">aboutMe</a>
-            <span className="pipe">|</span>
-            <a href='#projects' className="link-hov">someProjects</a>
-            <span className="pipe">|</span>
-            <a href='#blog' className="link-hov">myBlog</a>
-            <span className="pipe">|</span>
-            <a href="#contact" className="link-hov">contactMe</a>
+            <Link className="link-hov" to='/aboutMe'>aboutMe</Link>
+                <span className="pipe">|</span>
+            
+            <Link className="link-hov" to='/someProjects'>someProjects</Link>
+                <span className="pipe">|</span>
+            
+               
+            <Link className="link-hov" to='/myBlog'>myBlog</Link>
+                <span className="pipe">|</span>
+            
+            <Link className="link-hov" to='/contactMe'>contactMe</Link>
+            
+         
 
             <input type="checkbox" id="hamburger-input" className="burger-shower" />
             <label id="hamburger-menu" htmlFor="hamburger-input">

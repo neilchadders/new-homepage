@@ -1,9 +1,9 @@
-import './about.styles.css'
+import './type.styles.css'
 import Typewriter from "typewriter-effect";
 
 
 
-const About = () =>{
+const Type = () =>{
    
 
     return(
@@ -41,4 +41,4 @@ const About = () =>{
 
 
 
-export default About
+export default Type
