@@ -9,7 +9,7 @@ const Projects = () =>{
     return (
         <>
         <Header />
-        <h1>Projects</h1>
+        <h1 className="color">Projects</h1>
         </>
     )
 }

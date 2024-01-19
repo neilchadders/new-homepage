@@ -1,5 +1,5 @@
 import Header from '../../components/Header/header.component.jsx'
-
+import './contact.styles.css'
 
 
 
@@ -7,7 +7,7 @@ const Contact = () =>{
     return (
         <>
         <Header />
-        <h1>Contact</h1>
+        <h1 className='color'>Contact</h1>
         </>
     )
 }

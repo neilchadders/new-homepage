@@ -1,5 +1,5 @@
 import Header from '../../components/Header/header.component.jsx'
-
+import './blog.styles.css'
 
 
 
@@ -7,7 +7,7 @@ const Blog = () =>{
     return (
         <>
         <Header />
-        <h1>Blog</h1>
+        <h1 className= "color">Blog</h1>
         </>
     )
 }
