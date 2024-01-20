@@ -14,7 +14,7 @@
 
 }
 
-@media(max-width: 1013px) {
+@media(max-width: 750px) {
     #title {
         width: 30%;
         font-size: .7em;
