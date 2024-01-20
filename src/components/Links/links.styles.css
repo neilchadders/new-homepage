@@ -30,11 +30,11 @@
     left: 0;
     width: 100%;
     height: 100%;
-    opacity: 0;
+   
     visibility: hidden;
     transition: opacity .35s, visibility .35s, height .35s;
     overflow: hidden;
-    background: black;
+   
     z-index: -1;
 }
 
@@ -53,11 +53,11 @@
     padding: 0px;
     margin: 0px;
     background: linear-gradient(to bottom,
-            #FF5A33, #FF5A33 20%,
-            #FAF9F6 20%, #FAF9F6 40%,
-            #FF5A33 40%, #FF5A33 60%,
-            #FAF9F6 60%, #FAF9F6 80%,
-            #FF5A33 80%, #FF5A33 100%);
+            #FF5A33, #FF5A33 10%,
+            #FAF9F6 10%, #FAF9F6 40%,
+            #FF5A33 40%, #FF5A33 50%,
+            #FAF9F6 50%, #FAF9F6 88%,
+            #FF5A33 88%, #FF5A33 100%);
 }
 
 #hamburger-menu #sidebar-menu {
@@ -72,7 +72,7 @@
     padding: 0px 10px;
     box-sizing: border-box;
     text-align: center;
-    opacity: .9;
+    opacity: .98;
 }
 
 #hamburger-menu h3 {
@@ -89,9 +89,9 @@
     line-height: 3rem;
 }
 
-#hamburger-menu a {
+.list{
     color: #FF5A33;
-    font-size: 1.3rem;
+    font-size: 2rem;
     text-decoration: none;
 }
 
@@ -128,8 +128,8 @@
 
 @media screen and (max-width: 800px) {
     #hamburger-menu {
-        height: 20px;
-        width: 20px;
+        height: 30px;
+        width: 30px;
     }
 }
 

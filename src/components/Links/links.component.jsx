@@ -26,10 +26,10 @@ const Links = () => {
                 <nav id="sidebar-menu">
                     <h3>Menu</h3>
                     <ul>
-                        <li><a>aboutMe</a></li>
-                        <li><a>someProjects</a></li>
-                        <li><a>myBlog</a></li>
-                        <li><a>contactMe</a></li>
+                        <li><Link className="list" to='/aboutMe'>aboutMe</Link></li>
+                        <li><Link className="list" to='/someProjects'>someProjects</Link></li>
+                        <li><Link className="list" to='/myBlog'>myBlog</Link></li>
+                        <li><Link className="list" to='/contactMe'>contactMe</Link></li>
                     </ul>
                 </nav>
             </label>
