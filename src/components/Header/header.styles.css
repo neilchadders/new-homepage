@@ -9,7 +9,7 @@
     height: 120px;
     font-weight: 700;
     font-family: "Courier New";
-    width: 100%;
+    min-width: 100%;
 }
 
 
@@ -17,6 +17,6 @@
     #header {
         display: flex 1fr 1fr;
 
-        width: 100%;
+       min-width: 100%;
     }
 }
