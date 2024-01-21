@@ -1,5 +1,6 @@
 td {
 	border:  3px solid white;
+	color: white;
 	height: 100px;
 	width: 100px;
 	text-align: center;
@@ -16,7 +17,7 @@ table {
 	position: absolute;
 	left:  50%;
 	margin-left: -155px;
-	top: 150px;
+	top: 350px;
 }
 
 table tr:first-child td {
@@ -35,7 +36,7 @@ table tr td:last-child {
 	border-right: 0;
 }
 
-
+,
 .endgame{
 	display: none;
 	width: 200px;

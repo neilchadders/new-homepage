@@ -1,17 +1,4 @@
-import './nought.styles.css'
-import './nought.js'
-import { useEffect, useState } from 'react';
 
-
-const Nought = () => {
-
-const [style, setStyle] = useState("no-display");
-
-   const changeStyle = () => {
-        console.log("you just clicked");
-        if (style !== "light") setStyle("light");
-        else setStyle("dark");
-    };
 
 var origBoard;
 const huPlayer = 'O';
@@ -30,19 +17,13 @@ const winCombos = [
 const cells = document.querySelectorAll('.cell'); // Creates an array of the cells//remember scope
 startGame();
 
-
 function startGame() {
-
-	const sayHi = () => console.log("hi")
-
-	//	document.querySelector(".endgame").style.display = "none";
-	
+	document.querySelector(".endgame").style.display = "none";
 	origBoard = Array.from(Array(9).keys()); //This creates an array with the numbers 0-8
 	for (var i = 0; i < cells.length; i++) {
 		cells[i].innerText = '';
 		cells[i].style.removeProperty('background-color');
-		//cells[i].addEventListener('click', turnClick, false); //false here refers to useCapture - not needed in modern browsers and would normally always be false anyway- don't worry about it
-		cells[i].addEventListener('click', sayHi);
+		cells[i].addEventListener('click', turnClick, false); //false here refers to useCapture - not needed in modern browsers and would normally always be false anyway- don't worry about it
 	}
 }
 
@@ -55,7 +36,7 @@ function startGame() {
 
 
 function turnClick(square) {
-	if (typeof origBoard[square.target.id] === 'number') {
+	if (typeof origBoard[square.target.id] == 'number') {
 		turn(square.target.id, huPlayer)
 		if (!checkWin(origBoard, huPlayer) && !checkTie()) turn(bestSpot(), aiPlayer);
 	}
@@ -261,37 +242,3 @@ function minimax(newBoard, player) {
 
 
 
-
-	
-return (
-    <>
-	<table>
-		<tbody>
-		<tr>
-			<td className = "cell" id = "0"></td>
-			<td className = "cell" id = "1"></td>
-			<td className = "cell" id = "2"></td>
-		</tr>
-			<tr>
-			<td className = "cell" id = "3"></td>
-			<td className = "cell" id = "4"></td>
-			<td className = "cell" id = "5"></td>
-		</tr>
-			<tr>
-			<td className = "cell" id = "6"></td>
-			<td className = "cell" id = "7"></td>
-			<td className = "cell" id = "8"></td>
-		</tr>	
-		</tbody>
-	</table>
-
-		<div className = "endgame">
-			<div className = "text"></div>	
-		</div>	
-		<button onClick= "startGame()">Replay</button>
-    <script src = "nought.js"></script>
-        </>
-)
-}
-
-export default Nought

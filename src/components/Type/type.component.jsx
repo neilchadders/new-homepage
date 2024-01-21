@@ -11,8 +11,7 @@ const Type = () =>{
            <Typewriter
                 onInit={(typewriter) => {
                     typewriter
-                        .typeString( "<span class ='var-highlight'>var</span> aboutMe =<br> { name: <span className='string-highlight'>'Neil'</span>, profession: <span className='string-highlight'>'Web Developer'</span>, location: <span className='string-highlight'>'Yorkshire'</span>},<br>techUsed:[<span className='string-highlight'>'Javascript'</span>,<span className='string-highlight'>'HTML'</span>, <span className='string-highlight'>'CSS'</span><span className='string-highlight'>'SASS'</span><span className='string-highlight'>'React'</span><span className='string-highlight'>'Node.js'</span>];")
-                        
+                        .typeString( "<span class ='var-highlight'>var</span> aboutMe = {<br>Name: <span className='string-highlight'>'Neil',</span><br>Location: <span className='string-highlight'>'Yorkshire',</span>,<br>Tech-Used:[<span className='string-highlight'>'Javascript',</span><span className='string-highlight'>'HTML',</span>, <span className='string-highlight'>'CSS',</span><span className='string-highlight'>'SASS'</span><span className='string-highlight'>'React'</span><span className ='string-highlight'>'PHP',</span><span className='string-highlight'>'Node.js',</span><span className ='string-highlight'>'mySQL'</span>]};")
                         .pauseFor(1000)
                         .start()
                 }}
