@@ -35,10 +35,16 @@
     #bio-container{
 
        flex-wrap: wrap;     
+      
 }
 .photo{
     max-width: 40%;
     margin: auto;
     display: block;
+}
+.bio{
+    text-align: center;
+    margin: 50px;
+    font-size: 1em;
 }
 }
