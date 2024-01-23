@@ -1,4 +1,44 @@
+#bio-container{
+
+        display: flex; 
+        width: 100%; 
+        margin-top: 10%;
+    
+
+}
+
+.bio-container-div{
+   
+  
+}
 .bio {
     color: white;
-    padding-left: 50px;
+    font-size: 1.7em;   
+    margin-right: 5%; 
+}
+
+.photo{
+   max-width: 30%;
+    
+}
+
+.photo-img{
+    max-width: 60%;
+   
+    margin-left: 50px;
+    opacity: 0.4;
+    filter:saturate(140%) sepia(40%);
+}
+
+@media(max-width: 1013px) {
+
+    #bio-container{
+
+       flex-wrap: wrap;     
+}
+.photo{
+    max-width: 40%;
+    margin: auto;
+    display: block;
+}
 }

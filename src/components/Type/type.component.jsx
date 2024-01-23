@@ -12,7 +12,7 @@ const Type = () =>{
            <Typewriter className = "type-container"
                 onInit={(typewriter) => {
                     typewriter
-                        .typeString( "<span class ='var-highlight'>var</span> aboutMe = {<br>Name: <span class='string-highlight'>Neil,</span><br>Location: <span className='string-highlight'>Yorkshire,</span><br>Tech-Used:[<span className='string-highlight'>JavaScript, </span><span className='string-highlight'>HTML, </span><span className='string-highlight'>CSS, </span><span className='string-highlight'>SASS, </span><span className='string-highlight'>React, </span><span className ='string-highlight'>PHP, </span><span className='string-highlight'>Node.js, </span><span className ='string-highlight'>mySQL </span>]<br>};")
+                        .typeString( "<span class ='var-highlight'>var</span> aboutMe = {<br>Name: <span class='string-highlight'>Neil,</span><br>Location: <span class='string-highlight'>Yorkshire,</span><br>Tech-Used:[<span class='string-highlight'>JavaScript, </span><span class='string-highlight'>HTML, </span><span class='string-highlight'>CSS, </span><span class='string-highlight'>SASS, </span><span class='string-highlight'>React, </span><span class ='string-highlight'>PHP, </span><span class='string-highlight'>Node.js, </span><span class ='string-highlight'>mySQL </span>]<br>};")
                         .pauseFor(1000)
                         .start()
                 }}
