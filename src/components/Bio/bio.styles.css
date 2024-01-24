@@ -15,6 +15,7 @@
     color: white;
     font-size: 1.7em;   
     margin-right: 5%; 
+    margin-top: 0;
 }
 
 .photo{
@@ -24,7 +25,7 @@
 
 .photo-img{
     max-width: 60%;
-   
+    border-style: outset;
     margin-left: 50px;
     opacity: 0.4;
     filter:saturate(140%) sepia(40%);
