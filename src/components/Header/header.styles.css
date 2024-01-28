@@ -3,8 +3,8 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    color: black;
-    background-color: #FAF9F6;
+   background-color: black;
+   color: #FAF9F6;
 
     height: 120px;
     font-weight: 700;
