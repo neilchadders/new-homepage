@@ -1,3 +1,14 @@
+.dark {
+    background-color: #333;
+    background-image: url("https://i.pinimg.com/originals/22/10/1b/22101bfc172ffe55b7b403d5648b3ef9.png");
+    color:red;
+}
+  
+  .light {
+       
+  }
+
+
 #quote {
     padding-top: 60px;
     padding-left: 50px;

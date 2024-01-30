@@ -3,11 +3,20 @@ import './home.styles.css'
 import Quote from '../../components/Quote/quote.component.jsx'
 
 
+
+
+
+
 const Home = () =>{
+
+    
     return (
-        <div className = "bg">
+       
+        <div>
         <Header />
         <Quote />
+   
+        
        
         </div>
     )
