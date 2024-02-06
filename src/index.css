@@ -24,3 +24,8 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family:'picasso' ;
+  src: url('./fonts/picasso.ttf');
+}

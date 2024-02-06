@@ -1,18 +1,21 @@
 
-
+#quote{
+    min-height: 100%;
+}
 
 
 #quote-text {
-    font-size: 3em;
+    font-size: 2.5em;
     font-weight: 700;
-    padding-top: 60px;
+    padding-top: 40px;
     padding-left: 50px;
-    max-width: 70%;
+    max-width: 60%;
 }
 
 #author {
     font-size: 1.8em;
     padding-left: 50px;
+    max-width: 30%;
    
 }
 
