@@ -1,6 +1,6 @@
 
 #quote{
-    min-height: 100%;
+   
 }
 
 
@@ -19,11 +19,20 @@
    
 }
 
+#me{
+    font-size: 2.5em;
+    font-weight: 700;
+   margin-left: 40%;
+  
+    max-width: 60%;
+   
+    ;
+}
 
 @media(max-width: 800px) {
     #quote {
 
-        width: 50%;
+       
         font-size: .5em;
 
     }

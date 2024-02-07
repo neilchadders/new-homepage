@@ -11,8 +11,8 @@ const Quote = () => {
         <div id = "quote" className={darkMode ? `Container Container-dark` : `Container Container-light`}>
             <p id="quote-text" className={darkMode ? `Container Container-dark` : `Container Container-light`}><em>"Computers are useless. They can only give you answers".</em></p>
             <p id="author" className={darkMode ? `Container Container-dark` : `Container Container-light`}> - Pablo Picasso</p>
-
             <Lightswitch />
+            <p id = "me">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore odio mollitia quod! Modi, at et. Sint expedita nisi quibusdam esse at, nihil deserunt doloremque sed voluptatum? Aperiam aut incidunt facere!</p>
             
         </div>
         
