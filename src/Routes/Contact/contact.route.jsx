@@ -1,6 +1,8 @@
 import Header from '../../components/Header/header.component.jsx'
 import './contact.styles.css'
 
+import {collection, addDoc} from "firebase/firestore";
+import { db} from "../../config/firebase";
 
 import { useState } from "react";
 import { toast, ToastContainer } from "react-toastify";
@@ -11,13 +13,31 @@ import axios from "axios";
 
 function Contact() {
 
-    const [email, setEmail] = useState("");
+
+  const contactFormCollectionRef = collection(db, "contactForm") // 
+
+  const [email, setEmail] = useState("");
   const [subject, setSubject] = useState("");
   const [message, setMessage] = useState("");
   const [loading, setLoading] = useState("");
 
+  const onSubmitForm = async () => {
+    try {
+      await addDoc(contactFormCollectionRef, {
+        email: email,
+        subject: subject,
+        message: message,
+      });
+     
+    } catch (err) {
+      console.error(err);
+    }
+  };
+
+
+
   const submitHandler = async (e) => {
-    console.log("test")
+ 
     e.preventDefault();
     if (!email || !subject || !message)
       return toast.error(
