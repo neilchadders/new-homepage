@@ -1,11 +1,15 @@
 
 #quote{
-   
+    
+  
+   min-height: 30vh;
+    
 }
 
 
+
 #quote-text {
-    font-size: 2.5em;
+    font-size: 2rem;
     font-weight: 700;
     padding-top: 40px;
     padding-left: 50px;
@@ -13,21 +17,12 @@
 }
 
 #author {
-    font-size: 1.8em;
+    font-size: 1.6rem;
     padding-left: 50px;
     max-width: 30%;
-   
+  
 }
 
-#me{
-    font-size: 2.5em;
-    font-weight: 700;
-   margin-left: 40%;
-  
-    max-width: 60%;
-   
-    ;
-}
 
 @media(max-width: 800px) {
     #quote {
