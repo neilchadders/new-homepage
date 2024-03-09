@@ -1,28 +1,32 @@
-#links {
-    width: 50;
-    margin-top: 80px;
-    margin-right: 40px;
+#home-links {
+    font-weight: 600;
+    margin: 0%;
+    text-align: center;
     font-size: 1.3em;
     z-index: 9;
 
 }
 
-.link-hov {
-    color: #FF5A33;
+.home-link-hov {
+    color: 	#cc2323;
     text-decoration: none;
     margin-right: auto;
+    font-weight: 600;
 
 }
 
-.link-hov:hover {
+.home-link-hov:hover {
     text-decoration: underline;
 }
 
-.pipe {
-    color: #FF5A33;
+.home-pipe {
+    color: 	#cc2323;
+    font-weight: 600;
     padding-left: 10px;
     padding-right: 10px;
 }
+
+/*
 
 .overlay {
     position: fixed;
@@ -37,6 +41,7 @@
    
     z-index: -1;
 }
+
 
 #hamburger-input {
     display: none;

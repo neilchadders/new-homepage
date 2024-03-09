@@ -1,10 +1,10 @@
 .home{
-  
+
 
 }
 .Container-dark {
   
-  background-color: #000;
+  background-color:#121212;
   color: white;
 }
 
@@ -12,11 +12,10 @@
 
   background-color: 	#ffae14;
   color: 	#cc2323;
-  font-family: 'picasso';
-  
- 
- 
-}
+  margin: 0;
+
+
+ }
 
 .Content {
   display: flex;

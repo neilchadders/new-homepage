@@ -11,7 +11,7 @@ function Lightswitch() {
     return (
         <div className={darkMode ? `toggle-position Container Container-light`:`toggle-position Container Container-dark`}>
         <input type="checkbox" id="toggle" className="toggleCheckbox" onClick={handleClick}/>
-        <label for="toggle" className='toggleContainer'>
+        <label htmlFor="toggle" className='toggleContainer'>
         <div>Dark Mode</div>
           <div>Picasso Mode</div>   
           
@@ -21,11 +21,7 @@ function Lightswitch() {
 
     )
 
-        {/*<div className="Lightswitch">
-            
-            <img src={darkMode ? `../img/lightswitch-on.png`:
-            `../img/lightswitch-off.png`} alt="Lightswitch on" onClick={handleClick}/>
-    </div> */}
+       
 
 }
 

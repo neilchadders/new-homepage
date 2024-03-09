@@ -1,24 +1,30 @@
 
-#quote{
-    
 
-    min-height: 30vh;
-    max-height: 30vh;
-    
+#quote{
+   
+    min-height: 100vh;
 }
 
+.home-title{
 
+    margin: 0;
+    text-align: center;
+    font-size: 3em;
+    padding-top:30px ;
+}
 
-#quote-text {
-    font-size: 2rem;
+.quote-text {
+    font-size: 1.6rem;
     font-weight: 700;
-    padding-top: 40px;
+    padding-top: 8%;
     padding-left: 50px;
     max-width: 60%;
+    line-height: 130%;
+   
 }
 
-#author {
-    font-size: 1.6rem;
+.author {
+    font-size: 1.2rem;
     padding-left: 50px;
     max-width: 30%;
   
