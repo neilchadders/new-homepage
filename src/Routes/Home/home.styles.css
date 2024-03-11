@@ -13,6 +13,11 @@
   background-color: 	#ffae14;
   color: 	#cc2323;
   margin: 0;
+  
+  animation: blink linear infinite 1.5s;
+  text-shadow: 2px 2px 8px #FF0000;
+  
+  
 
 
  }

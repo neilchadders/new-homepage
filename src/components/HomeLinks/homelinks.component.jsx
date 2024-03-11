@@ -23,9 +23,9 @@ const HomeLinks = () => {
             
             <Link className="home-link-hov" to='/contactMe'>contactMe</Link>
             
-         {/*
-
-            <input type="checkbox" id="hamburger-input" className="burger-shower" />
+            
+         
+            <input type="checkbox" id="hamburger-input" />
             <label id="hamburger-menu" htmlFor="hamburger-input">
                 <nav id="sidebar-menu">
                     <h3>Menu</h3>
@@ -38,7 +38,7 @@ const HomeLinks = () => {
                 </nav>
             </label>
 
-            <div className="overlay"></div>*/}
+    <div className="overlay"></div> 
     </div> 
     )
 }

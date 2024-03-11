@@ -3,39 +3,51 @@
 #quote{
    
     min-height: 100vh;
+    display: flex;
+   
+}
+
+.flex-title{
+    padding-top: 15%;
+}
+
+.flex-quote{
+    padding-left: 60px;
 }
 
 .home-title{
-
+    padding-left: 45px;
+   
     margin: 0;
-    text-align: center;
+    text-align: left;
     font-size: 3em;
     padding-top:30px ;
+    line-height: 0.6;
 }
+
 
 .quote-text {
     font-size: 1.6rem;
-    font-weight: 700;
+    font-weight: 400;
     padding-top: 8%;
-    padding-left: 50px;
-    max-width: 60%;
+   
+    max-width: 90%;
     line-height: 130%;
    
 }
 
 .author {
     font-size: 1.2rem;
-    padding-left: 50px;
     max-width: 30%;
   
 }
 
 
-@media(max-width: 800px) {
+@media(max-width: 950px) {
     #quote {
 
+       flex-wrap: wrap;
        
-        font-size: .5em;
 
     }
 }

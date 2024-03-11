@@ -2,6 +2,7 @@ import "./projects.styles.css"
 
 import { useState } from 'react';
 
+
 import Header from '../../components/Header/header.component.jsx'
 import SearchBox from "../../components/SearchBox/search-box.component.jsx"
 import CardList from "../../components/CardList/cardlist.component.jsx"
@@ -27,6 +28,8 @@ const Projects = () =>{
     return (
         <>
         <Header />
+
+        <a href = "https://hardcore-ritchie-17f9e3.netlify.app/" rel = "noreferrer" target="_blank">Exercise Countdown (new tab)</a>
         <SearchBox className="" placeholder="search projects" onChangeHandler={onSearchChange}/>
         <CardList projects = {filteredProjects} />
 
