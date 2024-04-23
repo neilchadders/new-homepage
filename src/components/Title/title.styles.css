@@ -7,7 +7,7 @@
 #title {
     height: 120px;
     font-weight: 700;
-
+    min-width: 100%;
     font-size: .7em;
     padding-top: 2px;
     padding-left: 50px;

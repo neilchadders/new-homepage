@@ -5,6 +5,8 @@ import {collection, addDoc} from "firebase/firestore";
 import { db} from "../../config/firebase";
 
 import { useState } from "react";
+
+import { DarkModeProvider } from '../../context/DarkModeContext';
 //import { toast, ToastContainer } from "react-toastify";
 //import 'react-toastify/dist/ReactToastify.css';
 //import axios from "axios";
@@ -36,7 +38,7 @@ function Contact() {
 
 
   return(
-    <>
+    <DarkModeProvider>
    
     <Header />
     <div className="contact-form">
@@ -77,7 +79,7 @@ function Contact() {
           </form>
       </section>
     </div>
-    </>
+    </DarkModeProvider>
   );
 }
   

@@ -1,0 +1,34 @@
+
+
+#home-links {
+   margin: 0;
+    font-weight: 600;
+    font-size: 1.3em;
+    width: 100%;
+    text-align: center;
+    
+
+}
+
+.home-link-hov {
+    color: 	#cc2323;
+    text-decoration: none;
+    margin-right: auto;
+    font-weight: 600;
+
+}
+
+.home-link-hov:hover {
+    text-decoration: underline;
+}
+
+.home-pipe {
+    color: 	#cc2323;
+    font-weight: 600;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+
+       

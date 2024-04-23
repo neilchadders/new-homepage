@@ -8,9 +8,6 @@ const CardList = ({ projects }) => (
         {projects.map((project) => {
             return <Card project={project} key={project.id} />
 
-
-
-
         })}
     </div>
 );

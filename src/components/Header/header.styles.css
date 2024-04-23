@@ -1,21 +1,9 @@
 #header {
-    margin-top: 0;
+   
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
- 
-
-    height: 120px;
-    font-weight: 700;
     font-family: "Courier New";
-    min-width: 100%;
-}
+  
+   
 
-
-@media(max-width: 1013px) {
-    #header {
-       
-
-       min-width: 100%;
-    }
 }
