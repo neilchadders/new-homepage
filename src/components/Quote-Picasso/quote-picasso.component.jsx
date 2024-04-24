@@ -12,7 +12,7 @@ const QuotePicasso = () => {
     return (
         <div id = "quote"className={darkMode ? `Container-light`: `Container-dark`}>
             <div className = "flex-title">
-                <h1 className = "home-title">Neil_C</h1>
+                <h1 className = "home-title">Hi, I'm Neil Chadwick, Software Developer.</h1>
                 <h2 className = "home-title" >Developer</h2>
             </div>
 
