@@ -5,29 +5,29 @@ import React, {useContext} from 'react';
 
 import {DarkModeContext} from '../../context/DarkModeContext';
 import Lightswitch from "../Lightswitch/lightswitch.component";
+import myPic from "./newme.jpeg"
+
 
 const QuotePicasso = () => {
     const {darkMode} = useContext(DarkModeContext);
 
     return (
-        <div id = "quote"className={darkMode ? `Container-light`: `Container-dark`}>
-            <div className = "flex-title">
-                <h1 className = "home-title">Hi, I'm Neil Chadwick, Software Developer.</h1>
-                <h2 className = "home-title" >Developer</h2>
-            </div>
-
-            <div className = "flex-quote">
-        
-                <p className ="quote-text"><strong>"Computers are useless.</strong> They can only give you answers".</p>
-                <p className ="author"> - Pablo Picasso</p>
-            
-                <p className ="quote-text">"I dont know anything about art, but I like to build things with computers. Have a look at what <strong>I've done here,</strong> or even better <strong>contact me here.</strong></p>
-                <p className ="author"> - Me</p>
-
+     
+        <div id = "home-page" className={darkMode ? `Container-light`: `Container-dark`}>
             <Lightswitch className = "toggle" />
-
+        
+        <div id = "quote" lassName={darkMode ? `Container-light`: `Container-dark`}>
+          
+        <div className = "flex-title">
+                <h1 className = "home-title head">Hi, I'm Neil.</h1>
+                <p className = "home-title text">Either on the front-end or back-end, I like building stuff.</p>
+                <p className = "home-title text">Have a look at what <strong>I've done here,</strong> or even better <strong>contact me here.</strong></p>
             </div>
+                <div className="image">
+                    <img className = "photo" src={myPic} alt="Logo" />
+                </div>
         </div>
+    </div>
         
     )
 }

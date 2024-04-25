@@ -1,54 +1,45 @@
 
+#home-page{
+    padding-top: 4% ;
+}
 
-#quote{
-   
+#quote{   
     min-height: 100vh;
-    display: flex;
+    display: inline-flex;
+    text-align: center;
+    padding-top: 5%;
+    padding-left: 20%;
+    padding-right: 20%;
+    margin: 100px;
+    border: solid 1px;
+}
+
+
+.head{
+    
+    font-weight: 800;
+    font-size: 2.4rem;
+    line-height: 1.2;
+}
+
+
+
+.photo{
+    min-width: 80%;
+    clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
    
 }
 
 .flex-title{
-    padding-top: 15%;
-}
-
-.flex-quote{
-    padding-left: 60px;
-}
-
-.home-title{
-    padding-left: 45px;
-    font-weight: 800;
-    margin: 0;
-    text-align: left;
-    font-size: 3.9em;
-    padding-top:30px ;
-    line-height: 1.2;
+    padding-top: 10%;
     
-}
-
-
-.quote-text {
-    font-size: 1.8rem;
-    font-weight: 800;
-    padding-top: 8%;
     
-    max-width: 90%;
-    line-height: 130%;
-   
-}
-
-.author {
-    font-size: 1.6rem;
-    max-width: 30%;
-  
 }
 
 
 @media(max-width: 950px) {
     #quote {
-
        flex-wrap: wrap;
-       
 
     }
 }
