@@ -6,16 +6,33 @@ const Bio = () =>{
 
     return (
         <div id = "bio-container">
-            <div className = "photo">
-                <img className = "photo-img" src={myPic} alt="Logo" />
+
+            <div id = "container">
+                <div className = "bio-photo">
+                    <img className = "photo-img" src={myPic} alt="Logo" />
+                </div>
+                <div className='bio'>
+                    <p className='bio-text'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam recusandae magnam fugiat illo unde cupiditate quos repudiandae praesentium dolorem nobis, dolore ex possimus distinctio consequuntur quis nostrum qui accusamus nemo.</p>
+                </div>
             </div>
-            <div className='bio'>
-                <p className='bio-text'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam recusandae magnam fugiat illo unde cupiditate quos repudiandae praesentium dolorem nobis, dolore ex possimus distinctio consequuntur quis nostrum qui accusamus nemo.</p>
-                <div className = "type">
-                <Type/>
+
+            <div id = "container">
+                <div className = "bio-photo">
+                    <img className = "photo-img" src={myPic} alt="Logo" />
+                </div>
+                <div className='bio'>
+                    <p className='bio-text'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam recusandae magnam fugiat illo unde cupiditate quos repudiandae praesentium dolorem nobis, dolore ex possimus distinctio consequuntur quis nostrum qui accusamus nemo.</p>
+                </div>
             </div>
+
+            <div id = "container">
+                <div className = "bio-photo">
+                    <img className = "photo-img" src={myPic} alt="Logo" />
+                </div>
+                <div className='bio'>
+                    <p className='bio-text'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam recusandae magnam fugiat illo unde cupiditate quos repudiandae praesentium dolorem nobis, dolore ex possimus distinctio consequuntur quis nostrum qui accusamus nemo.</p>
+                </div>
             </div>
-         
             
         </div>
     )

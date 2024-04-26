@@ -12,8 +12,8 @@ function Lightswitch() {
         <div className={darkMode ? `toggle-position Container Container-light`:`toggle-position Container Container-dark`}>
         <input type="checkbox" id="toggle" className="toggleCheckbox" onClick={handleClick}/>
         <label htmlFor="toggle" className='toggleContainer'>
-        <div>Dark Mode</div>
-          <div>Picasso Mode</div>   
+        <div>Light Mode</div>
+          <div>Dark Mode</div>   
           
         </label>
         </div>

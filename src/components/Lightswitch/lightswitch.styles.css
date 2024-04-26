@@ -9,13 +9,15 @@
     position: relative;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    width: fit-content;
+    width: 300px;
     border: 3px solid #343434;
     border-radius: 20px;
-    background: #343434;
+    background: black;
     font-weight: bold;
-    color: #343434;
+    font-size: .9em;
+    color: black;;
     cursor: pointer;
+   
    
   }
   .toggleContainer::before {
@@ -44,11 +46,11 @@
     transition: color 0.3s;
   }
   .toggleCheckbox:checked + .toggleContainer div:last-child{
-    color: #343434;
+    color: black;;
     transition: color 0.3s;
   }
   .toggleCheckbox + .toggleContainer div:first-child{
-    color: #343434;
+    color: black;
     transition: color 0.3s;
   }
   .toggleCheckbox + .toggleContainer div:last-child{

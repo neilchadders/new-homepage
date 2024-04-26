@@ -3,7 +3,7 @@
 #home-links {
    margin: 0;
     font-weight: 600;
-    font-size: 1.3em;
+    font-size: 1.2em;
     width: 100%;
     text-align: center;
     
@@ -14,7 +14,7 @@
     color: 	#cc2323;
     text-decoration: none;
     margin-right: auto;
-    font-weight: 600;
+    font-weight: 400;
 
 }
 
@@ -29,6 +29,12 @@
     padding-right: 10px;
 }
 
-
+@media(max-width: 950px) {
+    #home-links {
+        font-size: 1em;
+       
+        
+}
+}
 
        
