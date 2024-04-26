@@ -1,51 +1,36 @@
 #bio-container{
-       
-        width: 100%; 
-        margin-top: 10%;
-       
-       
-    
-}
-.bio {
-    display: flex;
-    flex-direction: row;
-    color: black;
-    font-size: 1.7em;   
-    margin-right: 5%; 
-    margin-top: 0;
-    
-}
-
-  
-.container {
-    display: grid;
-    grid-template-columns: auto auto ;
-      }
-
-.photo{
-  
-    
-}
-
-.photo-img{
-   max-width: 20%;
-}
-
-@media(max-width: 1013px) {
-
-    #bio-container{
-
-       flex-wrap: wrap;     
-      
-}
-.photo{
-    max-width: 40%;
-    margin: auto;
-    display: block;
-}
-.bio{
+    margin: 5%;
     text-align: center;
-    margin: 50px;
+    }
+      
+
+.container {
+        display: flex;   
+            
+ }
+
+ .bio {
+    flex: 1;
+    
+
+}
+
+.bio-text{
+    text-align: left;
+}
+.photo-bio{
+    max-width: 70%;
+    max-height: 70%;
+}
+
+
+@media(max-width: 950px) {
+
+.container{ 
+    flex-direction: column;
+}
+
+.bio{ 
     font-size: 1em;
 }
 }

@@ -50,9 +50,8 @@
 
     }
     .photo{
+      
         min-width: 300px;
     }
-    .flex-title{
-       max-height: 40px;
-    }
+    
 }

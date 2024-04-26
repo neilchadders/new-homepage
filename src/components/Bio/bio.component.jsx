@@ -1,39 +1,45 @@
 import Type from '../Type/type.component'
 import './bio.styles.css'
 
-import myPic from "./me.jpeg"
+import myPic from "./meonmoors.jpeg"
+import myHike from "./hike.jpeg"
+import myReunion from "./reunion.jpeg"
+
+
 const Bio = () =>{
 
     return (
         <div id = "bio-container">
 
-            <div id = "container">
-                <div className = "bio-photo">
-                    <img className = "photo-img" src={myPic} alt="Logo" />
-                </div>
-                <div className='bio'>
-                    <p className='bio-text'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam recusandae magnam fugiat illo unde cupiditate quos repudiandae praesentium dolorem nobis, dolore ex possimus distinctio consequuntur quis nostrum qui accusamus nemo.</p>
-                </div>
-            </div>
 
-            <div id = "container">
-                <div className = "bio-photo">
-                    <img className = "photo-img" src={myPic} alt="Logo" />
-                </div>
+            <div className = "container">
                 <div className='bio'>
-                    <p className='bio-text'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam recusandae magnam fugiat illo unde cupiditate quos repudiandae praesentium dolorem nobis, dolore ex possimus distinctio consequuntur quis nostrum qui accusamus nemo.</p>
+                    <p className='bio-text'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam recusandae magnam fugiat illo unde cupiditate quos repudiandae praesentium dolorem nobis, dolore ex possimus distinctio consequuntur quis nostrum qui accusamus nemo.Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam recusandae magnam fugiat illo unde cupiditate quos repudiandae praesentium dolorem nobis, dolore ex possimus distinctio consequuntur quis nostrum qui accusamus nemo.</p>
                 </div>
-            </div>
-
-            <div id = "container">
-                <div className = "bio-photo">
-                    <img className = "photo-img" src={myPic} alt="Logo" />
-                </div>
-                <div className='bio'>
-                    <p className='bio-text'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam recusandae magnam fugiat illo unde cupiditate quos repudiandae praesentium dolorem nobis, dolore ex possimus distinctio consequuntur quis nostrum qui accusamus nemo.</p>
+                <div className = "bio photo-div">
+                    <img className = "photo-bio" src={myHike} alt="Logo" />
                 </div>
             </div>
             
+            <div className = "container">
+                <div className = "bio photo-div">
+                    <img className = "photo-bio" src={myPic} alt="Logo" />
+                </div>
+                <div className='bio'>
+                    <p className='bio-text'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam recusandae magnam fugiat illo unde cupiditate quos repudiandae praesentium dolorem nobis, dolore ex possimus distinctio consequuntur quis nostrum qui accusamus nemo.Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam recusandae magnam fugiat illo unde cupiditate quos repudiandae praesentium dolorem nobis, dolore ex possimus distinctio consequuntur quis nostrum qui accusamus nemo.</p>
+                </div>
+            </div> 
+
+            <div className = "container">
+                <div className='bio'>
+                    <p className='bio-text'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam recusandae magnam fugiat illo unde cupiditate quos repudiandae praesentium dolorem nobis, dolore ex possimus distinctio consequuntur quis nostrum qui accusamus nemo.Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam recusandae magnam fugiat illo unde cupiditate quos repudiandae praesentium dolorem nobis, dolore ex possimus distinctio consequuntur quis nostrum qui accusamus nemo.</p>
+                </div>
+                <div className = "bio photo-div">
+                    <img className = "photo-bio" src={myReunion} alt="Logo" />
+                </div>
+               
+            </div>   
+
         </div>
     )
 }
