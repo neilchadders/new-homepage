@@ -17,6 +17,9 @@ const projectArr =
             link: "https://lotr.fandom.com/wiki/Legolas",
             id: "321ABC"
         },
+
+        
+
         {
             pic: "https://i.pinimg.com/564x/5f/cc/77/5fcc77b5357bff18af9b497515feb076.jpg",
             name: "Frodo",
@@ -24,7 +27,8 @@ const projectArr =
             description: " Curabitur convallis ac quam vitae laoreet. Nulla mauris ante, euismod sed lacus sit amet, congue bibendum eros. Etiam mattis lobortis porta. Vestibulum ultrices iaculis enim imperdiet egestas.",
             link: "https://lotr.fandom.com/wiki/Frodo_Baggins?so=search",
             id: '1abcsrqrvv98'
-        },
+        }, ]
+      /*
         {
             pic: "https://i.pinimg.com/564x/bf/91/0a/bf910a7ab627ac2c256f3c03f062e874.jpg",
             name: "Arwen",
@@ -57,6 +61,6 @@ const projectArr =
             link: "https://lotr.fandom.com/wiki/Boromir?so=search",
             id: '123abcwe9898hhqqwv096'
         }
-    ]
+    ] */
 
 export default projectArr;

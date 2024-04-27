@@ -8,10 +8,11 @@
     height: 120px;
     font-weight: 700;
     min-width: 100%;
-    font-size: .7em;
-    padding-top: 2px;
-    padding-left: 50px;
+    font-size: 1.5em;
+    padding-top: 50px;
+    padding-bottom: 150px;
     line-height: 20px;
+    text-align: center;
    
 
 }
@@ -20,7 +21,7 @@
     #title {
         width: 30%;
         font-size: .7em;
-        text-align: center;
+        
 
     }
 }

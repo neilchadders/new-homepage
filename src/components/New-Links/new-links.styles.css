@@ -6,10 +6,17 @@
     font-size: 1.2em;
     width: 100%;
     text-align: center;
-    
+    padding: 20px;
+   
 
 }
-
+#home-links:after{
+    border-bottom: 1px solid black;
+    content: '';
+    display: block;
+    margin-left: 25%;
+    width: 50%;
+} 
 .home-link-hov {
     color: 	#cc2323;
     text-decoration: none;

@@ -1,4 +1,4 @@
-import Type from '../Type/type.component'
+
 import './bio.styles.css'
 
 import myPic from "./meonmoors.jpeg"
