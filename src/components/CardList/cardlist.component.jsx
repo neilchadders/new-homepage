@@ -1,6 +1,4 @@
 import './cardlist.styles.css'
-import Card from "../Card/card.component.jsx";
-
 
 
 const CardList = ({ projects }) => (
