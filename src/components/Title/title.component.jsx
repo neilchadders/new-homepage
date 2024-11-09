@@ -11,8 +11,8 @@ const Title = () => {
 
     return (
         <div id="title" className={darkMode ? `Container-light`: `Container-dark`}>
-     <Link className = "title" to='/'><h1>Neil_C</h1></Link>
-     <Link className = "title"  to='/'><h2>Developer</h2></Link>
+     <Link to='/' className={darkMode ? `Container-light`: `Container-dark`}><h1>Neil_C</h1></Link>
+     <Link  to='/' className={darkMode ? `Container-light`: `Container-dark`} ><h2>Developer</h2></Link>
         </div>
     )
 }

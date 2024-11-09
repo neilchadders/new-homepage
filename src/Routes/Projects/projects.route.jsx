@@ -6,7 +6,7 @@ import CardList from "../../components/CardList/cardlist.component.jsx"
 import projectArr from './projects';
 
 import { DarkModeProvider } from '../../context/DarkModeContext';
-import Type from "../../components/Type/type.component.jsx";
+
 
 
 const Projects = () =>{
@@ -16,11 +16,11 @@ const Projects = () =>{
 
   
     return (
-      <DarkModeProvider>
+      <fr>
         <Header />
       <CardList />
-       <Type />
-      </DarkModeProvider>
+      </fr>
+      
     )
 }
 

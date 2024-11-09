@@ -1,16 +1,18 @@
-import "./about.styles.css"
+//import "./about.styles.css"
 import Header from '../../components/Header/header.component.jsx'
 import Bio from '../../components/Bio/bio.component.jsx'
-import { DarkModeProvider } from '../../context/DarkModeContext';
+//import { DarkModeProvider } from '../../context/DarkModeContext';
+
 
 
 
 const About = () =>{
     return (
-        <DarkModeProvider>   
+
+        <fr>
         <Header />
-        <Bio />
-        </DarkModeProvider>   
+       <Bio />
+       </fr>
        
     )
 }

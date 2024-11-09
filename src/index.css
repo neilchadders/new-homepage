@@ -21,6 +21,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-color: 	#fffff2;
   color: black;
+ 
   
 
 }
@@ -30,7 +31,22 @@ code {
     monospace;
 }
 
-@font-face {
-  font-family:'picasso' ;
-  src: url('./fonts/picasso.ttf');
+.Container-dark {
+    
+  background-color: 	#fffff2;
+  color: black;
+  padding:0;
+  text-decoration: none;
 }
+
+.Container-light {
+
+  background-color: 	black;
+  color: 	white;
+  margin: 0;
+  text-decoration: none;
+ 
+ }
+
+ animation: blink linear infinite 1.3s;
+ text-shadow: 2px 2px 8px #FF0000;

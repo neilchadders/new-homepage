@@ -1,5 +1,5 @@
 #bio-container{
-    margin: 5%;
+   padding: 5%;
     text-align: center;
   
     
@@ -24,6 +24,9 @@
     max-width: 70%;
     max-height: 70%;
 }
+
+
+
 
 
 @media(max-width: 950px) {

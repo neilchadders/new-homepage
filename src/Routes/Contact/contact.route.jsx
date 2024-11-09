@@ -38,7 +38,8 @@ function Contact() {
 
 
   return(
-    <DarkModeProvider>
+    
+    <fr>
    
     <Header />
     <div className="contact-form">
@@ -79,7 +80,7 @@ function Contact() {
           </form>
       </section>
     </div>
-    </DarkModeProvider>
+    </fr>
   );
 }
   

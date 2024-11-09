@@ -5,11 +5,16 @@ import myPic from "./meonmoors.jpeg"
 import myHike from "./hike.jpeg"
 import myReunion from "./reunion.jpeg"
 
+import {DarkModeContext} from '../../context/DarkModeContext'
+import { useContext } from 'react'
+
+
 
 const Bio = () =>{
-
+    const {darkMode} = useContext(DarkModeContext);
     return (
-        <div id = "bio-container">
+        
+        <div id = "bio-container" className= {darkMode ? `Container-light`: `Container-dark`}>
 
 
             <div className = "container">

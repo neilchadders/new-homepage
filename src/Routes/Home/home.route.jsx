@@ -1,8 +1,6 @@
 
 import Header from '../../components/Header/header.component.jsx';
-import './home.styles.css'
-import QuotePicasso from '../../components/Quote-Picasso/quote-picasso.component.jsx';
-import { DarkModeProvider } from '../../context/DarkModeContext';
+import AboutInfo from '../../components/AboutInfo/aboutInfo.jsx';
 
 
 const Home = () =>{
@@ -10,11 +8,11 @@ const Home = () =>{
     return (
        
         <div className = "home">
-             <DarkModeProvider>
+             
                 <Header/>
-                <QuotePicasso />
+                <AboutInfo />
               
-            </DarkModeProvider>   
+           
         </div>
     )
 }
