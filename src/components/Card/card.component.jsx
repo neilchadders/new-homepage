@@ -3,11 +3,12 @@ import './card.styles.css'
 
 
 const Card = ({ project}) => {
+
     const { name, description, link, pic } = project;
 
     return (
-        <div className="card-container">
-            <article>
+        <div className='flex-wrapper'>
+            <article className='articles'>
              <div className="article-wrapper">
       <figure>
         <img className="pic" src={pic} alt="" />

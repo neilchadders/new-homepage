@@ -1,25 +1,21 @@
 import "./projects.styles.css"
-import { useState } from 'react';
+import { useState, useContext } from 'react';
 import Header from '../../components/Header/header.component.jsx'
 import CardList from "../../components/CardList/cardlist.component.jsx"
 
 import projectArr from './projects';
 
-import { DarkModeProvider } from '../../context/DarkModeContext';
+import { DarkModeContext } from '../../context/DarkModeContext';
 
 
 
 const Projects = () =>{
-
-
-
-
-  
+  const {darkMode} = useContext(DarkModeContext);
     return (
-      <fr>
+      <div id = "project" className={darkMode ? `Container-light`: `Container-dark`}>
         <Header />
-      <CardList />
-      </fr>
+        <CardList projects = {projectArr} className={darkMode ? `Container-light`: `Container-dark`}/>
+      </div>
       
     )
 }

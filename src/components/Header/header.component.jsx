@@ -6,7 +6,6 @@ import './header.styles.css'
 
 
 import { useContext } from 'react'
-
 import {DarkModeContext} from '../../context/DarkModeContext';
 
 

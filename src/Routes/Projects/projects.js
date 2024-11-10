@@ -1,7 +1,7 @@
 const projectArr =
     [
         {
-            pic: "https://i.etsystatic.com/19303525/r/il/56dce4/3062753461/il_fullxfull.3062753461_h814.jpg",
+            pic: "https://picsum.photos/id/1011/800/450",
             name: "Aragorn",
             tech: "React, CSS, Express, PHP, MySQL", 
             description: "  Curabitur convallis ac quam vitae laoreet. Nulla mauris ante, euismod sed lacus sit amet, congue bibendum eros. Etiam mattis lobortis porta. Vestibulum ultrices iaculis enim imperdiet egestas.",
