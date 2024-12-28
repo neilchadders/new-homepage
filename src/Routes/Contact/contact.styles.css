@@ -1,3 +1,8 @@
+#contact-container{
+  min-height: 100vh;
+  text-align: center;
+}
+
 .contact-form {
    min-height: 80vh;
    display: flex;
@@ -27,7 +32,7 @@
  }
  form .form-wrapper > div > label {
    margin-bottom: 0.5rem;
-   color: black;
+
    display: block;
  }
  form .form-wrapper > div > input, form .form-wrapper > div > textarea {
@@ -46,3 +51,8 @@
    border: none;
    cursor: pointer;
  }
+
+ #send-button{
+  margin-bottom: 0;
+  padding-bottom: 20px;
+  }
