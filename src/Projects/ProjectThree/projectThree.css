@@ -1,0 +1,42 @@
+#bio-container{
+    padding: 5%;
+     text-align: center;
+   
+     
+     }
+       
+ 
+ .container {
+         display: flex;   
+             
+  }
+ 
+  .bio {
+     flex: 1;
+     
+ 
+ }
+ 
+ .bio-text{
+     text-align: left;
+ }
+ .photo-bio{
+     max-width: 70%;
+     max-height: 70%;
+ }
+ 
+ 
+ 
+ 
+ 
+ @media(max-width: 950px) {
+ 
+ .container{ 
+     flex-direction: column;
+ }
+ 
+ .bio{ 
+     font-size: 1em;
+ }
+ }
+ 

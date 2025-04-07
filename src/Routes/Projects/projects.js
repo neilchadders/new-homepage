@@ -2,19 +2,19 @@ const projectArr =
     [
         {
             pic: "https://picsum.photos/id/1011/800/450",
-            name: "Aragorn",
+            name: "MERN Stack Ecommerce app",
             tech: "React, CSS, Express, PHP, MySQL", 
             description: "  Curabitur convallis ac quam vitae laoreet. Nulla mauris ante, euismod sed lacus sit amet, congue bibendum eros. Etiam mattis lobortis porta. Vestibulum ultrices iaculis enim imperdiet egestas.",
-            link: "https://en.wikipedia.org/wiki/Aragorn",
+            link: "http://localhost:3000/projectOne",
             id: '123abc'
         },
 
         {
             pic: "https://i.pinimg.com/564x/fb/12/76/fb127606a2822e111d25de089df615d7.jpg",
-            name: "Legolas",
+            name: "Exercise Countdown",
             tech: "React, CSS, Express, PHP, MySQL", 
             description: " Curabitur convallis ac quam vitae laoreet. Nulla mauris ante, euismod sed lacus sit amet, congue bibendum eros. Etiam mattis lobortis porta. Vestibulum ultrices iaculis enim imperdiet egestas.",
-            link: "https://lotr.fandom.com/wiki/Legolas",
+            link: "http://localhost:3000/projectTwo",
             id: "321ABC"
         },
 
@@ -22,10 +22,10 @@ const projectArr =
 
         {
             pic: "https://i.pinimg.com/564x/5f/cc/77/5fcc77b5357bff18af9b497515feb076.jpg",
-            name: "Frodo",
+            name: "My Portfolio site",
             tech: "React, CSS, Express, PHP, MySQL", 
             description: " Curabitur convallis ac quam vitae laoreet. Nulla mauris ante, euismod sed lacus sit amet, congue bibendum eros. Etiam mattis lobortis porta. Vestibulum ultrices iaculis enim imperdiet egestas.",
-            link: "https://lotr.fandom.com/wiki/Frodo_Baggins?so=search",
+            link: "http://localhost:3000/projectThree",
             id: '1abcsrqrvv98'
         }, ]
       /*

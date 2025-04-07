@@ -55,4 +55,9 @@
  #send-button{
   margin-bottom: 0;
   padding-bottom: 20px;
+  font-family: 'Courier New', Courier, monospace;
   }
+  #send-button-send{
+
+    font-family: 'Courier New', Courier, monospace;
+    }

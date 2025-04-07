@@ -4,7 +4,7 @@ import './card.styles.css'
 
 const Card = ({ project}) => {
 
-    const { name, description, link, pic } = project;
+    const { name, tech, description, link, pic } = project;
 
     return (
         <div className='flex-wrapper'>
@@ -16,6 +16,7 @@ const Card = ({ project}) => {
      
       <div className ="article-body">
         <h2>{name}</h2>
+        <p>{tech}</p>
         <p>{description}</p>
           
         <a href={link} target={"__blank"}className="read-more">

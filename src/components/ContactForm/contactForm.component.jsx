@@ -71,7 +71,7 @@ const ContactForm = () =>{
               ></textarea>
             </div>
             <div id = "send-button">
-             <button onClick={onSubmitForm}>Send..</button>
+             <button id = "send-button-send" onClick={onSubmitForm}>Send..</button>
             </div>
           </div>
           </form>
