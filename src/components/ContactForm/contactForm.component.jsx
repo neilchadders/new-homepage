@@ -58,6 +58,7 @@ const ContactForm = () =>{
             <div>
               <label htmlFor="email">Email Address</label>
               <input
+                value={email}
                 onChange={(e) => setEmail(e.target.value)}
                 type="email"
                 id="email"
@@ -66,6 +67,7 @@ const ContactForm = () =>{
             <div>
               <label htmlFor="subject">Email Subject</label>
               <input
+                value={subject}
                 onChange={(e) => setSubject(e.target.value)}
                 type="text"
                 id="subject"
@@ -74,6 +76,7 @@ const ContactForm = () =>{
             <div>
               <label htmlFor="message">Message Body</label>
               <textarea
+                value={message}
                 onChange={(e) => setMessage(e.target.value)}
                 type="text"
                 id="message"
@@ -85,12 +88,8 @@ const ContactForm = () =>{
           </div>
           </form>
       </section>
-      <>
-    <ToastContainer position="top-right" autoClose={3000} />
-    <div id="contact-form" className={darkMode ? `Container-light`: `Container-dark`}>
-    </div>
-  </>
-
+      <ToastContainer position="top-right" autoClose={3000} />
+    
     </div>
 
     
