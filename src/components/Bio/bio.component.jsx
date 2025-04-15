@@ -19,7 +19,17 @@ const Bio = () =>{
 
             <div className = "container">
                 <div className='bio'>
-                    <p className='bio-text'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam recusandae magnam fugiat illo unde cupiditate quos repudiandae praesentium dolorem nobis, dolore ex possimus distinctio consequuntur quis nostrum qui accusamus nemo.Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam recusandae magnam fugiat illo unde cupiditate quos repudiandae praesentium dolorem nobis, dolore ex possimus distinctio consequuntur quis nostrum qui accusamus nemo.</p>
+                    <p className='bio-text'>Before getting into software 
+                        development, I studied law and spent a few years 
+                        teaching and traveling abroad. 
+                        Those experiences helped me build strong 
+                        communication and problem-solving skills, 
+                        and made me comfortable adapting to new 
+                        environments—something that’s really come in handy 
+                        while learning to code. Over time, I realized I 
+                        wanted to do something more creative and technical, 
+                        which led me to start a part-time MSc in 
+                        Computer Science and Software Development.</p>
                 </div>
                 <div className = "bio photo-div">
                     <img className = "photo-bio" src={myHike} alt="Logo" />
@@ -31,20 +41,38 @@ const Bio = () =>{
                     <img className = "photo-bio" src={myPic} alt="Logo" />
                 </div>
                 <div className='bio'>
-                    <p className='bio-text'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam recusandae magnam fugiat illo unde cupiditate quos repudiandae praesentium dolorem nobis, dolore ex possimus distinctio consequuntur quis nostrum qui accusamus nemo.Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam recusandae magnam fugiat illo unde cupiditate quos repudiandae praesentium dolorem nobis, dolore ex possimus distinctio consequuntur quis nostrum qui accusamus nemo.</p>
+                    <p className='bio-text'>What really drew me to software 
+                        development is how hands-on and ever-evolving it is.
+                         I love being able to build things that actually work 
+                         and solve real problems. There's something super
+                          satisfying about figuring out a bug or finally 
+                          getting a feature to work just right. I enjoy the 
+                          mix of logic, creativity, and constant learning, 
+                          and I’m excited to keep growing and eventually work 
+                          on projects that make a real difference for people.</p>
+                    
                 </div>
             </div> 
 
             <div className = "container">
                 <div className='bio'>
-                    <p className='bio-text'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam recusandae magnam fugiat illo unde cupiditate quos repudiandae praesentium dolorem nobis, dolore ex possimus distinctio consequuntur quis nostrum qui accusamus nemo.Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam recusandae magnam fugiat illo unde cupiditate quos repudiandae praesentium dolorem nobis, dolore ex possimus distinctio consequuntur quis nostrum qui accusamus nemo.</p>
-                </div>
+                    <p className='bio-text'>
+                    Right now, I’ve been working mostly with JavaScript, 
+                    React, and Next.js on the frontend, and using PostgreSQL 
+                    for the database side. I’ve also been learning the MERN 
+                    stack to get more full-stack experience, and recently 
+                    started diving into .NET for backend development. It's been 
+                    a lot of fun putting everything together and seeing how all 
+                    the pieces connect. I'm really looking forward to joining 
+                    a team where I can keep learning, contribute to cool 
+                    projects, and grow as a developer.</p>
+                    </div>
                 <div className = "bio photo-div">
                     <img className = "photo-bio" src={myReunion} alt="Logo" />
                 </div>
                
             </div>   
-
+        
         </div>
     )
 }
