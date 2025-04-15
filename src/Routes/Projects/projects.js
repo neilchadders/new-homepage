@@ -1,16 +1,20 @@
+import chorleychilli from './chorleychilli.png';
+import exerciseCountdown from './exercise.png';
+import homepage from './homepage.png';
+
 const projectArr =
     [
         {
-            pic: "https://picsum.photos/id/1011/800/450",
+            pic: chorleychilli,
             name: "MERN Stack Ecommerce app",
-            tech: "React, CSS, Express, PHP, MySQL", 
+            tech: "React, CSS, Express, MongoDB, Node.js",
             description: "  Curabitur convallis ac quam vitae laoreet. Nulla mauris ante, euismod sed lacus sit amet, congue bibendum eros. Etiam mattis lobortis porta. Vestibulum ultrices iaculis enim imperdiet egestas.",
             link: "http://localhost:3000/projectOne",
             id: '123abc'
         },
 
         {
-            pic: "https://i.pinimg.com/564x/fb/12/76/fb127606a2822e111d25de089df615d7.jpg",
+            pic: exerciseCountdown,
             name: "Exercise Countdown",
             tech: "React, CSS, Express, PHP, MySQL", 
             description: " Curabitur convallis ac quam vitae laoreet. Nulla mauris ante, euismod sed lacus sit amet, congue bibendum eros. Etiam mattis lobortis porta. Vestibulum ultrices iaculis enim imperdiet egestas.",
@@ -21,7 +25,7 @@ const projectArr =
         
 
         {
-            pic: "https://i.pinimg.com/564x/5f/cc/77/5fcc77b5357bff18af9b497515feb076.jpg",
+            pic: homepage,
             name: "My Portfolio site",
             tech: "React, CSS, Express, PHP, MySQL", 
             description: " Curabitur convallis ac quam vitae laoreet. Nulla mauris ante, euismod sed lacus sit amet, congue bibendum eros. Etiam mattis lobortis porta. Vestibulum ultrices iaculis enim imperdiet egestas.",
