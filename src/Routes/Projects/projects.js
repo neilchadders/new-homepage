@@ -7,8 +7,8 @@ const projectArr =
         {
             pic: chorleychilli,
             name: "MERN Stack Ecommerce app",
-            tech: "React, CSS, Express, MongoDB, Node.js",
-            description: "  Curabitur convallis ac quam vitae laoreet. Nulla mauris ante, euismod sed lacus sit amet, congue bibendum eros. Etiam mattis lobortis porta. Vestibulum ultrices iaculis enim imperdiet egestas.",
+            tech: "React, CSS, Express, MongoDB, Node.js, Boostrap, nodemailer",
+            description: " This is a MERN stack ecommerce application that allows users to browse and purchase chiili sauces. It features login and registeroptions, secure payment through PayPal, and an admin dashboard for managing products and orders. Registering and payments are confirmed by email sent through nodemailer.",
             link: "http://localhost:3000/projectOne",
             id: '123abc'
         },
@@ -16,8 +16,8 @@ const projectArr =
         {
             pic: exerciseCountdown,
             name: "Exercise Countdown",
-            tech: "React, CSS, Express, PHP, MySQL", 
-            description: " Curabitur convallis ac quam vitae laoreet. Nulla mauris ante, euismod sed lacus sit amet, congue bibendum eros. Etiam mattis lobortis porta. Vestibulum ultrices iaculis enim imperdiet egestas.",
+            tech: "Vanilla JS, CSS, HTML", 
+            description: "I really wanted to focus on the fundamentals so opted for a vanilla JS project that incorportated async programming and promises. This is a countdown timer that allows you to add or remove exercises, set a time and then start the countdown. It also has a pause and reset function.",
             link: "http://localhost:3000/projectTwo",
             id: "321ABC"
         },
@@ -27,8 +27,8 @@ const projectArr =
         {
             pic: homepage,
             name: "My Portfolio site",
-            tech: "React, CSS, Express, PHP, MySQL", 
-            description: " Curabitur convallis ac quam vitae laoreet. Nulla mauris ante, euismod sed lacus sit amet, congue bibendum eros. Etiam mattis lobortis porta. Vestibulum ultrices iaculis enim imperdiet egestas.",
+            tech: "React, CSS, FireBase, HTML", 
+            description: "This is my portfolio site that I built using React and Firebase. It features a home page, projects page, about me page and a contact form. The contact form uses Firebase to send emails to me when someone fills it out. It also incorporates a Darkmode toggle using the useContext hook.",
             link: "http://localhost:3000/projectThree",
             id: '1abcsrqrvv98'
         }, ]

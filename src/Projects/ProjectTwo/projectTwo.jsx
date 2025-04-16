@@ -1,50 +1,57 @@
-    
-import './projectTwo.css'
 import Header from '../../components/Header/header.component'
+import './projectTwo.css'
 
-import myReunion from "./reunion.jpeg"
-
-import {DarkModeContext} from '../../context/DarkModeContext'
+import { DarkModeContext } from '../../context/DarkModeContext'
 import { useContext } from 'react'
+import { Link } from 'react-router-dom'
 
+const ProjectTwo = () => {
+    const { darkMode } = useContext(DarkModeContext);
 
-
-const ProjectTwo = () =>{
-    const {darkMode} = useContext(DarkModeContext);
     return (
-        
-        <div id = "bio-container" className= {darkMode ? `Container-light`: `Container-dark`}>
+        <div id="project-container" className={darkMode ? `Container-light` : `Container-dark`}>
+            <Header />
 
-        <Header />
+             <div className="project-title">
+                                    <h2>Exercise Countdown App</h2>
+                                    <p>Exercise Countdown App</p>
+                                    <p>Vanilla JavaScript, Html and CSS</p>
+                                    <Link to="https://hardcore-ritchie-17f9e3.netlify.app/" className='project-address'>Visit Exercise Countdown</Link>
+                                    </div>
+            
 
-            <div className = "container">
-                <div className='bio'>
-                    <p className='bio-text'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam recusandae magnam fugiat illo unde cupiditate quos repudiandae praesentium dolorem nobis, dolore ex possimus distinctio consequuntur quis nostrum qui accusamus nemo.Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam recusandae magnam fugiat illo unde cupiditate quos repudiandae praesentium dolorem nobis, dolore ex possimus distinctio consequuntur quis nostrum qui accusamus nemo.</p>
+            <div className="container">
+                <div className='project'>
+                    <p className='project-text'>
+                        TETS Lorem ipsum dolor sit amet consectetur adipisicing elit...
+                    </p>
                 </div>
-                <div className = "bio photo-div">
-                    <img className = "photo-bio" src={myReunion} alt="Logo" />
+                <div className="project photo-div">
+                    <img className="photo-project" src="/img/exercise.png" alt="exercise" />
                 </div>
             </div>
-            
-            <div className = "container">
-                <div className = "bio photo-div">
-                <img className = "photo-bio" src={myReunion} alt="Logo" />
-                </div>
-                <div className='bio'>
-                    <p className='bio-text'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam recusandae magnam fugiat illo unde cupiditate quos repudiandae praesentium dolorem nobis, dolore ex possimus distinctio consequuntur quis nostrum qui accusamus nemo.Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam recusandae magnam fugiat illo unde cupiditate quos repudiandae praesentium dolorem nobis, dolore ex possimus distinctio consequuntur quis nostrum qui accusamus nemo.</p>
-                </div>
-            </div> 
 
-            <div className = "container">
-                <div className='bio'>
-                    <p className='bio-text'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam recusandae magnam fugiat illo unde cupiditate quos repudiandae praesentium dolorem nobis, dolore ex possimus distinctio consequuntur quis nostrum qui accusamus nemo.Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam recusandae magnam fugiat illo unde cupiditate quos repudiandae praesentium dolorem nobis, dolore ex possimus distinctio consequuntur quis nostrum qui accusamus nemo.</p>
+            <div className="container">
+                <div className="project photo-div">
+                    <img className="photo-project" src="/img/exercise.png" alt="exercise" />
                 </div>
-                <div className = "bio photo-div">
-                    <img className = "photo-bio" src={myReunion} alt="Logo" />
+                <div className='project'>
+                    <p className='project-text'>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit...
+                    </p>
                 </div>
-               
-            </div>   
+            </div>
 
+            <div className="container">
+                <div className='project'>
+                    <p className='project-text'>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit...
+                    </p>
+                </div>
+                <div className="project photo-div">
+                    <img className="photo-project" src="/img/exercise.png" alt="exercise" />
+                </div>
+            </div>
         </div>
     )
 }
