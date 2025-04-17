@@ -19,6 +19,9 @@
 
 .bio-text{
     text-align: left;
+    background-color:rgb(1, 24, 216, 0.1);
+    padding: 13%;
+    margin: 10%;
 }
 .photo-bio{
     max-width: 70%;

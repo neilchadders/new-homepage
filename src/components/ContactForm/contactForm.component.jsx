@@ -9,6 +9,8 @@ import 'react-toastify/dist/ReactToastify.css';
 import {DarkModeContext} from '../../context/DarkModeContext'
 import { useContext } from 'react'
 
+import './contactform.styles.css'
+
 
 const ContactForm = () =>{
   
