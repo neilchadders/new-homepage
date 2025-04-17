@@ -18,7 +18,7 @@ const projectArr =
             name: "Exercise Countdown",
             tech: "Vanilla JS, CSS, HTML", 
             description: "I really wanted to focus on the fundamentals so opted for a vanilla JS project that incorportated async programming and promises. This is a countdown timer that allows you to add or remove exercises, set a time and then start the countdown. It also has a pause and reset function.",
-            link: "http://localhost:3000/projectTwo",
+            link: "/projectTwo",
             id: "321ABC"
         },
 
@@ -29,7 +29,7 @@ const projectArr =
             name: "My Portfolio site",
             tech: "React, CSS, FireBase, HTML", 
             description: "This is my portfolio site that I built using React and Firebase. It features a home page, projects page, about me page and a contact form. The contact form uses Firebase to send emails to me when someone fills it out. It also incorporates a Darkmode toggle using the useContext hook.",
-            link: "http://localhost:3000/projectThree",
+            link: "/projectThree",
             id: '1abcsrqrvv98'
         }, ]
 
