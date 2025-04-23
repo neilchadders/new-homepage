@@ -4,6 +4,7 @@ import './projectOne.css'
 import { DarkModeContext } from '../../context/DarkModeContext'
 import { useContext } from 'react'
 import { Link } from 'react-router-dom'
+import { motion } from 'framer-motion'
 
 const ProjectOne = () => {
     const { darkMode } = useContext(DarkModeContext);
@@ -13,10 +14,12 @@ const ProjectOne = () => {
             <Header />
             
             <div className="project-title">
+
             <h2>Chorley Chill</h2>
             <p>Mern Stack Ecommerce app</p>
             <p>React, CSS, Express, MongoDB, Node.js, Boostrap, nodemailer</p>
             <Link to="https://chorley-chilli.onrender.com" className='project-address'>Visit Chorley Chill</Link>
+            
             </div>
 
             <div className="container">
