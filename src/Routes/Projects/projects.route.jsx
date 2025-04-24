@@ -18,10 +18,10 @@ const Projects = () =>{
         <Header />
         <CardList projects = {projectArr} className={darkMode ? `Container-light`: `Container-dark`}/>
         <div className="current-projects">
-          <h2 className="current-title">Current Projects.....</h2>
-          <p className="current-description">A Next.js ecommerce app app with TypeScript, Tailwind, Zod and Postgres. Here is the <Link to = "https://next-app-pi-taupe-62.vercel.app/">site</Link> here is the
-          <Link to = "https://github.com/neilchadders/next-2" className="project-link">Github</Link></p>
-          <p className="project-description">An API using C# and Entity Framework. Please see <Link to = "https://github.com/neilchadders/MyEmptyWebApp" className="project-link">Github</Link></p>
+          <h2 className="current-title">Current Projects...</h2>
+          <p className="current-description">A Next.js ecommerce app app with TypeScript, Tailwind, Zod and Postgres. Here is the <Link to = "https://next-app-pi-taupe-62.vercel.app/">site</Link> and here is the
+          <Link to = "https://github.com/neilchadders/next-2" className="project-link">code</Link></p>
+          <p className="project-description">An API using C# and Entity Framework. Please see <Link to = "https://github.com/neilchadders/MyEmptyWebApp" className="project-link">the code.</Link></p>
         </div> 
         <Footer />
       
