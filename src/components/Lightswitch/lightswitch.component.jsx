@@ -28,6 +28,7 @@ function Lightswitch() {
             <label htmlFor="toggle" className='toggleContainer'>
                 <div>Light Mode</div>
                 <div>Dark Mode</div>
+                
             </label>
         </div>
     );

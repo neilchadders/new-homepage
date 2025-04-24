@@ -19,10 +19,9 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: 	#fffff2;
+  background-color: #fffff2;
   color: black;
  
-  
 
 }
 
@@ -42,13 +41,10 @@ code {
 
 .Container-light {
 
-  background-color: 	black;
-  color: 	white;
+  background-color: black;
+  color: #fffff2;
   margin: 0;
   text-decoration: none;
  
  
  }
-
- animation: blink linear infinite 1.3s;
- text-shadow: 2px 2px 8px #FF0000;

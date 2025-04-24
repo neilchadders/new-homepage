@@ -1,19 +1,18 @@
-#contact-container{
+#contact-container {
   min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   text-align: center;
- 
 }
 
 .contact-form {
-   min-height: 80vh;
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   color: black;
-   
-  
-   
- }
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+}
  .contact-form section form {
    min-width: 25rem;
    margin: 0 auto;

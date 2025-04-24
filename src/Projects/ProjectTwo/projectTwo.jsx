@@ -1,4 +1,5 @@
 import Header from '../../components/Header/header.component'
+import Footer from '../../components/Footer/footer'
 import './projectTwo.css'
 
 import { DarkModeContext } from '../../context/DarkModeContext'
@@ -52,6 +53,7 @@ const ProjectTwo = () => {
                     <img className="photo-project" src="/img/exercise.png" alt="exercise" />
                 </div>
             </div>
+            <Footer />
         </div>
     )
 }

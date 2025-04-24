@@ -1,6 +1,7 @@
 
 import Header from '../../components/Header/header.component.jsx';
 import AboutInfo from '../../components/AboutInfo/aboutInfo.jsx';
+import Footer from '../../components/Footer/footer.jsx';
 
 
 const Home = () =>{
@@ -11,6 +12,7 @@ const Home = () =>{
              
                 <Header/>
                 <AboutInfo />
+                <Footer />
               
            
         </div>
