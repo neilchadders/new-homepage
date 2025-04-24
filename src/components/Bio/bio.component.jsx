@@ -4,6 +4,7 @@ import myPic from "./meonmoors.jpeg"
 import myHike from "./hike.jpeg"
 import myReunion from "./reunion.jpeg"
 
+
 import { DarkModeContext } from '../../context/DarkModeContext'
 import { useContext } from 'react'
 

@@ -21,19 +21,21 @@
 
 .bio {
     flex: 1;
-    min-width: 300px;
+    min-width: 280px;
 }
 
 /* Text block */
 .bio-text {
     text-align: left;
     background-color: rgba(1, 24, 216, 0.1);
-    padding: 40px;
+    padding: 30px;
     margin: 0 5%;
     border: 5px solid rgba(100, 149, 237, 0.4);
+    font-size: 1rem;
+    line-height: 1.6;
 }
 
-/* Bold the first 3 words only */
+/* Bold the first few words only */
 .bio-text span {
     font-weight: 800;
 }
@@ -42,12 +44,34 @@
 .photo-bio {
     max-width: 100%;
     height: auto;
-    /* No border radius */
+    display: block;
+    margin: 0 auto;
 }
 
 /* Responsive tweaks */
 @media (max-width: 950px) {
     .container {
         flex-direction: column !important;
+    }
+
+    .bio-text {
+        margin: 0 2%;
+        padding: 20px;
+        font-size: 0.95rem;
+    }
+
+    .photo-bio {
+        width: 100%;
+    }
+}
+
+@media (max-width: 500px) {
+    .bio-text {
+        padding: 15px;
+        font-size: 0.9rem;
+    }
+
+    .container {
+        gap: 20px;
     }
 }
