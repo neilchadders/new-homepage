@@ -11,10 +11,10 @@
 
 }
 #home-links:after{
-    border-bottom: 1px solid black;
+  
     content: '';
     display: block;
-    margin-left: 25%;
+    margin-left: 10%;
     width: 50%;
 } 
 .home-link-hov {
@@ -38,7 +38,8 @@
 
 @media(max-width: 950px) {
     #home-links {
-        font-size: 1em;
+        font-size: .8em;
+        
        
         
 }
