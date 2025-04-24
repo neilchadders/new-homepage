@@ -9,3 +9,14 @@
 .article-wrapper{
     padding:5%;
 }
+
+.current-projects{
+    margin: 10%;
+    margin-top: 30px;
+     text-align: left;
+     background-color:rgb(255,87,34);
+     padding: 20px;
+     font-size: 1.2em;
+     font-weight: bold;
+     
+}
