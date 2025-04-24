@@ -64,7 +64,7 @@ const ProjectOne = () => {
             <div className="container">
                 <div className='project'>
                     <p className='project-text'>
-                        I was a bit overwhelmed with Redux Toolkit at first but once I undertood the concept of reducers and slices it made a lot more sense.  
+                    I was a bit overwhelmed with Redux Toolkit at first, but once I understood the concept of reducers and slices, it made a lot more sense. Likewise, useSelector and useDispatch really clicked for me once I realized how they bridge the gap between the Redux store and React components — useSelector lets you access the state you care about, and useDispatch lets you update it through actions. Once that clicked, managing state felt a lot more organized and predictable.
                     </p>
                 </div>
                 <div className="project photo-div">
