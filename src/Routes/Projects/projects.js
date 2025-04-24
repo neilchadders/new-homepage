@@ -7,7 +7,7 @@ const projectArr =
         {
             pic: chorleychilli,
             name: "MERN Stack Ecommerce app",
-            tech: "React, CSS, Express, MongoDB, Node.js, Boostrap, nodemailer",
+            tech: "React, Redux Toolkit, CSS, Express, MongoDB, Node.js, Boostrap, nodemailer",
             description: " This is a MERN stack ecommerce application that allows users to browse and purchase chiili sauces. It features login and registeroptions, secure payment through PayPal, and an admin dashboard for managing products and orders. Registering and payments are confirmed by email sent through nodemailer.",
             link: "/projectOne",
             id: '123abc'
@@ -39,7 +39,7 @@ const projectArr =
         {
             pic: chorleychilli,
             name: "MERN Stack Ecommerce app",
-            tech: "React, CSS, Express, MongoDB, Node.js, Boostrap, nodemailer",
+            tech: "React, Redux Toolkit,  CSS, Express, MongoDB, Node.js, Boostrap, nodemailer",
             description: " This is a MERN stack ecommerce application that allows users to browse and purchase chiili sauces. It features login and registeroptions, secure payment through PayPal, and an admin dashboard for managing products and orders. Registering and payments are confirmed by email sent through nodemailer.",
             link: "https://new-homepage-235u.onrender.com/projectOne",
             id: '123abc'
