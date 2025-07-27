@@ -48,7 +48,7 @@
     margin: 0 auto;
 }
 
-/* Responsive tweaks */
+/* Responsive STUFF */
 @media (max-width: 950px) {
     .container {
         flex-direction: column !important;
