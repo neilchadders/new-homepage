@@ -9,14 +9,14 @@ import myPic from "./newme.jpeg"
 
 
 const AboutInfo = () => {
-    const {darkMode} = useContext(DarkModeContext);
+    const { darkMode } = useContext(DarkModeContext);
+    const containerClass = darkMode ? 'Container-light' : 'Container-dark';
 
     return (
-     
-        <div id = "home-page" className={darkMode ? `Container-light`: `Container-dark`}>
-            
+        <div id="home-page" className={containerClass}>
+
         
-            <div id="quote" className={darkMode ? `Container-light` : `Container-dark`}>
+            <div id="quote" className={containerClass}>
     <motion.div
         className="flex-title"
         initial={{ opacity: 0, y: 40 }}

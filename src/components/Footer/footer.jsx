@@ -4,10 +4,11 @@ import { DarkModeContext } from '../../context/DarkModeContext';
 import './footer.styles.css';
 
 const Footer = () => {
-    const { darkMode } = useContext(DarkModeContext);
+      const { darkMode } = useContext(DarkModeContext);
+        const containerClass = darkMode ? 'Container-light' : 'Container-dark';
 
     return (
-        <footer className={darkMode ? 'footer footer-dark' : 'footer footer-light'}>
+        <footer className={containerClass}>
             <div className="footer-content">
                 <div className="footer-left">
                     <p className="footer-text">© {new Date().getFullYear()} Neil. All rights reserved.</p>

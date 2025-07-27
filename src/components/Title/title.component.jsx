@@ -7,12 +7,13 @@ import { useContext } from 'react';
 
 const Title = () => {
 
-    const {darkMode} = useContext(DarkModeContext);
+      const { darkMode } = useContext(DarkModeContext);
+  const containerClass = darkMode ? 'Container-light' : 'Container-dark';
 
     return (
-        <div id="title" className={darkMode ? `Container-light`: `Container-dark`}>
-     <Link to='/' className={darkMode ? `Container-light`: `Container-dark`}><h1>Neil_C</h1></Link>
-     <Link  to='/' className={darkMode ? `Container-light`: `Container-dark`} ><h2>Developer</h2></Link>
+        <div id="title" className={containerClass}>
+     <Link to='/' className={containerClass}><h1>Neil_C</h1></Link>
+     <Link  to='/' className={containerClass}><h2>Developer</h2></Link>
         </div>
     )
 }

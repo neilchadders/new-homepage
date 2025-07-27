@@ -12,11 +12,14 @@ import { Link } from "react-router-dom";
 
 
 const Projects = () =>{
-  const {darkMode} = useContext(DarkModeContext);
+    
+   const {darkMode} = useContext(DarkModeContext);
+  const containerClass = darkMode ? `Container-light` : `Container-dark`;
+
     return (
-      <div id = "project" className={darkMode ? `Container-light`: `Container-dark`}>
+      <div id = "project" className={containerClass}>
         <Header />
-        <CardList projects = {projectArr} className={darkMode ? `Container-light`: `Container-dark`}/>
+        <CardList projects = {projectArr} className={containerClass}/>
         <div className="current-projects">
           <h2 className="current-title">Current Projects...</h2>
           <p className="current-description">A Next.js ecommerce app app with TypeScript, Tailwind, Zod and Postgres. Here is the <Link to = "https://next-app-pi-taupe-62.vercel.app/">site</Link> and here is the

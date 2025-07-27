@@ -8,10 +8,11 @@ import { Link } from 'react-router-dom'
 
 
 const ProjectOne = () => {
-    const { darkMode } = useContext(DarkModeContext);
+      const { darkMode } = useContext(DarkModeContext);
+    const containerClass = darkMode ? 'Container-light' : 'Container-dark';
 
     return (
-        <div id="project-container" className={darkMode ? `Container-light` : `Container-dark`}>
+        <div id="project-container" className={containerClass}>
             <Header />
             
             <div className="project-title">

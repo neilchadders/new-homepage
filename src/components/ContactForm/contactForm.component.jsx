@@ -7,12 +7,14 @@ import { DarkModeContext } from '../../context/DarkModeContext';
 import './contactform.styles.css';
 
 const ContactForm = () => {
-  const contactFormCollectionRef = collection(db, "contactForm"); const [email, setEmail] = useState("");
+  const contactFormCollectionRef = collection(db, "contactForm"); 
+  const [email, setEmail] = useState("");
   const [subject, setSubject] = useState("");
   const [message, setMessage] = useState("");
   const [loading, setLoading] = useState(false);
 
   const { darkMode } = useContext(DarkModeContext);
+  const containerClass = darkMode ? 'Container-light' : 'Container-dark';
 
   const onSubmitForm = async (e) => {
     e.preventDefault();
@@ -45,9 +47,9 @@ const ContactForm = () => {
       setLoading(false);
     }
   };
-
+  
   return (
-    <div id="contact-form" className={darkMode ? "Container-light" : "Container-dark"}>
+    <div id="contact-form" className={containerClass}>
       <section>
         <h1>Send Email</h1>
         <form onSubmit={onSubmitForm}>

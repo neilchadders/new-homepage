@@ -7,9 +7,11 @@ import {DarkModeContext} from '../../context/DarkModeContext';
 
 const Contact = () => {
   const {darkMode} = useContext(DarkModeContext);
+  const containerClass = darkMode ? `Container-light` : `Container-dark`;
+
     return (
-        <div id ="contact-container" className={darkMode ? `Container-light`: `Container-dark`} >
-            
+        <div id ="contact-container" className={containerClass} >
+
             <Header title="Contact Me" />
             <ContactForm />
             <Footer />
