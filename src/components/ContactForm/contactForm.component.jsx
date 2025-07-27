@@ -1,13 +1,11 @@
 import {collection, addDoc} from "firebase/firestore";
 import { db} from "../../config/firebase";
 
-import { useState } from "react";
+import { useState, useContext } from "react";
 import { toast, ToastContainer } from "react-toastify";
 import 'react-toastify/dist/ReactToastify.css';
 
-
 import {DarkModeContext} from '../../context/DarkModeContext'
-import { useContext } from 'react'
 
 import './contactform.styles.css'
 
@@ -16,15 +14,29 @@ const ContactForm = () =>{
   
 
 
-  const contactFormCollectionRef = collection(db, "contactForm") // 
+  const contactFormCollectionRef = collection(db, "contactForm") // Firebase collection reference 
 
   const [email, setEmail] = useState("");
   const [subject, setSubject] = useState("");
-  const [message, setMessage] = useState("");
+  const [message, setMessage] = useState(""); 
+  const [loading, setLoading] = useState(false);
+
+  const { darkMode } = useContext(DarkModeContext);
 
 
   const onSubmitForm = async (e) => {
-    e.preventDefault();
+    e.preventDefault(); 
+
+     // Basic validation!!!
+    if (!email || !subject || !message) {
+      toast.error("All fields are required!");
+      return;
+    }
+    if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
+      toast.error("Invalid email address!");
+      return;
+    }
+
     try {
       await addDoc(contactFormCollectionRef, {
         email: email,
@@ -45,7 +57,7 @@ const ContactForm = () =>{
     }
   };
   
-  const {darkMode} = useContext(DarkModeContext);
+ 
   return(
     
 

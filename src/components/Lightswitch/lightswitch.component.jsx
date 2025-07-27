@@ -1,13 +1,12 @@
 
-import React, { useContext } from 'react';
-// Import the DarkModeContext
+import { useContext } from 'react';
 import { DarkModeContext } from '../../context/DarkModeContext';
 
 import "./lightswitch.styles.css"
 
 function Lightswitch() {
-    // Destructure darkMode state and toggleDarkMode function from context
-    const { darkMode, toggleDarkMode } = useContext(DarkModeContext);
+
+    const { darkMode, toggleDarkMode } = useContext(DarkModeContext); //De
 
     // Handle click event by calling the toggle function from context
     const handleClick = () => {
