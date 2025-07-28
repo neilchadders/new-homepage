@@ -6,7 +6,7 @@ import "./lightswitch.styles.css"
 
 function Lightswitch() {
 
-    const { darkMode, toggleDarkMode } = useContext(DarkModeContext); //De
+    const { darkMode, toggleDarkMode } = useContext(DarkModeContext); //Destructures
 
     // Handle click event by calling the toggle function from context
     const handleClick = () => {

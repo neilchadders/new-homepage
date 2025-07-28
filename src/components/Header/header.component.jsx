@@ -11,9 +11,9 @@ import {DarkModeContext} from '../../context/DarkModeContext';
 
 
 const Header = () => {
-      const { darkMode } = useContext(DarkModeContext);
+        const { darkMode } = useContext(DarkModeContext);
   const containerClass = darkMode ? 'Container-light' : 'Container-dark';
-    return (
+            return (
         <div id='header' className={containerClass} >
             <Title />
             <NewLinks />
